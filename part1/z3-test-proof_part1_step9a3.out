@@ -1,0 +1,23 @@
+unsat
+(A1 A2 A3 A4 A5 A6 I2 I3 I4 I5 I6 T1 T2 T3 T4 P2 Q1 Q11 Q21 Q22 Q31 Q41 Q101 Q102)
+(:added-eqs            2535
+ :arith-make-feasible  1
+ :arith-max-columns    4
+ :binary-propagations  51
+ :conflicts            362
+ :decisions            2134
+ :del-clause           17518
+ :max-generation       10
+ :max-memory           26.24
+ :memory               25.24
+ :minimized-lits       396
+ :mk-bool-var          10917
+ :mk-clause            17879
+ :num-allocs           10298915
+ :num-checks           1
+ :propagations         6902
+ :quant-instantiations 22157
+ :restarts             3
+ :rlimit-count         2690879
+ :time                 0.52
+ :total-time           0.52)
