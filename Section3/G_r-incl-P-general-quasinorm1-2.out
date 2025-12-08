@@ -1,0 +1,65 @@
+Reduced problem written to G_r-incl-P-general-quasinorm2_complete.smt.
+sat
+>Unknown. Prover says 'sat' but this can only be trusted for local extensions and this problem is not known to be local.
+However, you can try out this suggested model.
+
+model:
+v = 2
+z = 0
+u = 5
+w = 3
+m2 = 6
+m1 = 1
+p = 4
+d(_0, _3) = 554
+d(_0, _2) = 1093
+d(_3, _2) = 8
+d(_0, _5) = 65
+d(_3, _5) = 1139
+d(_2, _5) = 1126
+d(_0, _4) = 538
+d(_3, _4) = 16
+d(_4, _3) = 16
+d(_2, _4) = 9
+d(_5, _4) = 1117
+d(_4, _5) = 1117
+d(_6, _1) = 297
+d(_4, _6) = 261
+d(_0, _6) = 277
+d(_3, _6) = 277
+d(_2, _6) = 279
+d(_5, _6) = 298
+d(_6, _6) = 0
+d(_4, _1) = 554
+d(_0, _1) = 1145
+d(_3, _1) = 1140
+d(_2, _1) = 563
+d(_5, _1) = 563
+d(_1, _1) = 0
+V(_0) = 1
+V(_3) = 1
+V(_2) = 1
+V(_5) = 1
+d(_3, _0) = 554
+d(_5, _2) = 1126
+d(_1, _0) = 1145
+d(_6, _3) = 277
+d(_5, _0) = 65
+d(_1, _2) = 563
+d(_4, _0) = 538
+d(_1, _5) = 563
+d(_1, _3) = 1140
+d(_2, _3) = 8
+d(_6, _0) = 277
+d(_2, _0) = 1093
+d(_6, _2) = 279
+d(_1, _4) = 554
+d(_5, _3) = 1139
+d(_6, _5) = 298
+d(_6, _4) = 261
+d(_1, _6) = 297
+d(_4, _2) = 9
+
+H-PILoT spent                176.172711s on the problem.
+The prover needed            1.684722  s for the problem.
+Total running time:          177.857433s.

@@ -1,0 +1,39 @@
+Reduced problem written to R_r-incl-P-general-quasinorm2.smt.
+sat
+>Unknown. Prover says 'sat' but this can only be trusted for local extensions and this problem is not known to be local.
+However, you can try out this suggested model.
+
+model:
+u = 1
+v = (- 3)
+z = (- 1)
+w = 0
+p = (- 2)
+d(_(- 1), _0) = 101
+d(_(- 1), _(- 3)) = 141
+d(_0, _(- 3)) = 1
+d(_(- 1), _1) = 21
+d(_0, _1) = 101
+d(_(- 3), _1) = 50
+d(_(- 1), _(- 2)) = 52
+d(_0, _(- 2)) = 49
+d(_(- 2), _0) = 49
+d(_(- 3), _(- 2)) = 45
+d(_1, _(- 2)) = 5
+d(_(- 2), _1) = 5
+V(_(- 1)) = 1
+V(_0) = 1
+V(_(- 3)) = 1
+V(_1) = 1
+d(_1, _0) = 101
+d(_(- 3), _(- 1)) = 141
+d(_(- 2), _(- 1)) = 52
+d(_(- 3), _0) = 1
+d(_1, _(- 3)) = 50
+d(_0, _(- 1)) = 101
+d(_(- 2), _(- 3)) = 45
+d(_1, _(- 1)) = 21
+
+H-PILoT spent                7.732385s on the problem.
+The prover needed            0.077409s for the problem.
+Total running time:          7.809794s.

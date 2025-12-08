@@ -1,0 +1,23 @@
+unsat
+(A1 A2 A3 A4 A5 A6 I2 I3 I4 I5 I6 I12 I13 I14 I15 I16 T4 E1 E2 E3 R1 C1 F4 D1 D2 D3 D4 D5 D11 D12 D14 Q1 Q2 Q3 Q101 Q102 Q111)
+(error "line 128 column 10: model is not available")
+(:added-eqs                 1543
+ :binary-propagations       47
+ :conflicts                 554
+ :decisions                 3959
+ :del-clause                20976
+ :final-checks              9
+ :lazy-quant-instantiations 257
+ :max-generation            10
+ :max-memory                11.86
+ :memory                    10.86
+ :minimized-lits            776
+ :mk-clause                 21529
+ :num-allocs                67871425.00
+ :num-checks                1
+ :propagations              14852
+ :quant-instantiations      33734
+ :restarts                  10
+ :rlimit-count              2310578
+ :time                      2.19
+ :total-time                2.19)

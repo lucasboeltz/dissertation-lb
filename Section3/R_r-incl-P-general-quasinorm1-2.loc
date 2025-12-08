@@ -1,0 +1,60 @@
+Base_functions:={(+,2), (-,2), (*,2), (/,2)}
+Extension_functions:={(V, 1, 1), (d, 2, 1)}
+Relations:={(<,2), (>,2), (<=,2), (>=,2)}
+
+Clauses :=
+
+% V is either 0 or 1
+(FORALL x). --> V(x)=_0, V(x)=_1;
+
+% axioms for d (d is a metric)
+(FORALL x,y). d(x,y) >= _0;
+(FORALL x,y). d(x,y) = _0 --> x = y;
+(FORALL x,y). x = y --> d(x,y) = _0;
+(FORALL x,y). d(x,y) = d(y,x);
+(FORALL x,y,z). d(x,y) <= _2*(d(x,z) + d(z,y));
+
+% part of Pi_R(u,v)
+OR(d(u,w)>=d(u,v), d(v,w)>=d(u,v)); 
+OR(d(u,z)>=d(u,v), d(v,z)>=d(u,v)); 
+
+% part of Pi_R(w,z)
+OR(d(u,w)>=d(w,z), d(u,z)>=d(w,z));
+OR(d(v,w)>=d(w,z), d(v,z)>=d(w,z)); 
+	
+
+	
+		
+Query :=
+
+% u,v,w,z are vertices
+V(u)=_1;
+V(v)=_1;
+V(w)=_1;
+V(z)=_1;
+
+% vertices are distinct
+NOT(u=v);
+NOT(u=w);
+NOT(u=z);
+NOT(v=w);
+NOT(v=z);
+NOT(w=z);
+
+% Pi_P(u,v,w,z), p is the intersection point of u,v and w,z
+d(u,p)+d(p,v)=d(u,v);
+d(w,p)+d(p,z)=d(w,z);
+
+
+% needed for complete instantiation
+d(p,u)=d(u,p);
+d(p,v)=d(v,p);
+d(p,w)=d(w,p);
+d(p,z)=d(z,p);
+d(u,v)=d(v,u);
+d(u,w)=d(w,u);
+d(u,z)=d(z,u);
+d(v,w)=d(w,v);
+d(v,z)=d(z,v);
+d(w,z)=d(z,w);
+
