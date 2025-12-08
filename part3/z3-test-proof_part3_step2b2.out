@@ -1,0 +1,25 @@
+unsat
+(A1 A2 A3 A4 A5 A6 I1 I2 I3 I4 I5 I6 I12 I13 I14 I15 I16 T1 T2 T3 T4 E1 E2 E3 F1 F4 F5 D2 D3 D4 D5 D12 D14 P1 P2 U5 U6 U8 Q1 Q2 Q3 Q12 Q13 Q21 Q22 Q23 Q31 Q32 Q101 Q201 Q202)
+(:added-eqs                 21001
+ :arith-make-feasible       43
+ :arith-max-columns         4
+ :binary-propagations       63
+ :conflicts                 1939
+ :decisions                 29411
+ :del-clause                226534
+ :final-checks              96
+ :lazy-quant-instantiations 1145375
+ :max-generation            11
+ :max-memory                128.92
+ :memory                    115.25
+ :minimized-lits            8426
+ :mk-bool-var               59154
+ :mk-clause                 228472
+ :num-allocs                11251218795.00
+ :num-checks                1
+ :propagations              108751
+ :quant-instantiations      288385
+ :restarts                  37
+ :rlimit-count              176924698
+ :time                      35.14
+ :total-time                35.11)
