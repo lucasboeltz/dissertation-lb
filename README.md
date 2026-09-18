@@ -1,6 +1,6 @@
 # dissertation-lb
 
-# Automated Reasoning for the Construction of Connected and Plane graphs
+# Automated Reasoning for the Construction of Connected and Plane Graphs
 
 This repository contains the core codebase and implementation developed as part of my PhD dissertation. The primary objective of this project is the **formal verification of an algorithm designed for the connected planarization of graphs**. Moreover graph constructions for connected plane graphs, such as Gabriel graphs and Relative Neighboorhood graphs **(Section3)** and axiomatically defined geometric graphs, such as generalizations of Unit-Disk-Graphs are regarded **(Section4)**. 
 
